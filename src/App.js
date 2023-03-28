@@ -4,7 +4,7 @@ import Footer from './components/footer';
 import Login from './components/login';
 import Sign_up from './components/sign_up';
 import Main_page from './components/main_page';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
       {/* <Sign_up/> */}
       <Main_page/>
       <Footer/>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Login/>}/> 
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

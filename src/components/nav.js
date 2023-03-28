@@ -19,7 +19,7 @@ nav.defaultProps = {
   title: "Fuddi"
 }
 
-nav.PropTypes = {
+nav.propTypes = {
   title: PropTypes.string.isRequired
 }
 
